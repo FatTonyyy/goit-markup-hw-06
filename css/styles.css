@@ -705,6 +705,7 @@ button {
   margin-left: 70px;
   width: 206px;
   padding-left: 0;
+  margin-right: 93px;
 }
 
 .our-social-list {
@@ -739,6 +740,76 @@ button {
   height: 44px;
   fill: var(--second-text-color);
   padding: 12px;
+}
+
+.our-social-subscribe-title {
+  /* font-family: Roboto; */
+  /* font-style: normal; */
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--main-title-color);
+
+  margin-bottom: 20px;
+}
+
+.social-input {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* box-sizing: border-box; */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  background-color: rgba(47, 48, 58, 1);
+  color: var(--second-text-color);
+}
+
+.social-input::placeholder {
+  /* font-family: Roboto; */
+  /* font-style: normal; */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.social-subscribe-button {
+  width: 200px;
+  height: 50px;
+
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.social-subscribe-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.social-subscribe-text::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
 }
 
 .our-social-link:hover,
