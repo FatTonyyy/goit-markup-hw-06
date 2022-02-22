@@ -756,6 +756,10 @@ button {
   margin-bottom: 20px;
 }
 
+.our-social-subscribe-form {
+  display: flex;
+}
+
 .social-input {
   width: 358px;
   height: 50px;
@@ -787,30 +791,52 @@ button {
 }
 
 .social-subscribe-button {
+  display: flex;
   width: 200px;
   height: 50px;
 
   background-color: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
+
+  padding-right: 28px;
+  padding-left: 28px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+  transition: box-shadow 250ms var(--timing-function);
 }
 
+.social-subscribe-button:hover,
+.social-subscribe-button:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 .social-subscribe-text {
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
 
   text-align: center;
   letter-spacing: 0.06em;
+
+  color: var(--second-text-color);
+  margin-right: 10px;
 }
 
-.social-subscribe-text::after {
-  content: "";
-  display: block;
+.our-social-subscribe-image {
   width: 24px;
   height: 24px;
 }
+
+/* .social-subscribe-text::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("/img/icon-send.svg");
+  fill: var(--main-title-color);
+  margin-left: 12px;
+} */
 
 .our-social-link:hover,
 .our-social-link:focus {
