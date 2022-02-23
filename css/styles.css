@@ -778,6 +778,11 @@ button {
   color: var(--second-text-color);
 }
 
+.social-input:hover,
+.social-input:focus {
+  border-color: var(--accent-text-color);
+}
+
 .social-input::placeholder {
   /* font-family: Roboto; */
   /* font-style: normal; */
